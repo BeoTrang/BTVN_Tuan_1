@@ -7,13 +7,15 @@
     <title>Chương trình tính toán số ước của một số bất kỳ</title>
 </head>
 <body>
-    <h1>Chương trình tính số ước của một số bất kì</h1>
     <form id="form1" runat="server">
+        <div>
+            <asp:Label ID="Label1" runat="server" Text="Chương trình tính số ước của một số bất kì" Font-Size="Large" Font-Bold="True"></asp:Label>
+        </div>
         <div>
             <table>
                 <tr>
                     <td>
-                        <asp:Label Class="Label1" runat="server" Text="Nhập số: "></asp:Label>
+                        <asp:Label Class="Label1" runat="server" Text="Nhập số: " ForeColor="Black"></asp:Label>
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -21,15 +23,11 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button Class="Button1" runat="server" Text="Tính toán" OnClick="Button1_Click" />
+                        <asp:Button Class="Button1" runat="server" Text="Tính toán" OnClick="Button1_Click" ForeColor="Red" Font-Size="X-Small" />
                     </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div id="KetQua" runat="server"></div>
-                    </td>
-                </tr>
+                </tr> 
             </table>
+            <div id="KetQua" runat="server"></div>
         </div>
     </form>
 </body>
