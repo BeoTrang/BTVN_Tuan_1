@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Chương trình tính toán số ước của một số bất kỳ</title>
-    <link href="StyleSheet1.css" rel="stylesheet" />
 </head>
 <body>
     <h1>Chương trình tính số ước của một số bất kì</h1>
