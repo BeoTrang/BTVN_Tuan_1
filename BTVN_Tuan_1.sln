@@ -15,6 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_v2", "Website_v2\Web_v2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_v3", "Web_v3\Web_v3.csproj", "{861B9F30-0EC8-422C-8319-0A6B7FD789C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9385046B-F6B6-425C-98D3-C6A88A948B40}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\beobe\Downloads\readme.txt = C:\Users\beobe\Downloads\readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
